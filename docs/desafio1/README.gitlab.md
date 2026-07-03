@@ -114,8 +114,8 @@ Vá em **Settings → CI/CD → Variables** e adicione:
 | Variável | Descrição | Onde conseguir | Masked |
 |----------|-----------|----------------|--------|
 | `NETLIFY_AUTH_TOKEN` | Token de autenticação da Netlify | Netlify → User Settings → Applications → Personal access tokens | ✅ Sim |
-| `NETLIFY_SITE_ID` | ID do site na Netlify (UUID) | Netlify → Site configuration → General → Site ID | ✅ Sim |
-| `NETLIFY_SITE_NAME` | Nome do site (slug) | Netlify → Site configuration → General → Site name | ❌ Não |
+| `NETLIFY_SITE_ID` | ID do site na Netlify (UUID) | Netlify → Project configuration → General → Project ID | ✅ Sim |
+| `NETLIFY_SITE_NAME` | Nome do site (slug) | Netlify → Project configuration → General → Project name | ❌ Não |
 
 **Como gerar `NETLIFY_AUTH_TOKEN`:**
 1. Acesse [app.netlify.com](https://app.netlify.com)

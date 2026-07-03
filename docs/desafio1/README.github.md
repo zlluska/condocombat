@@ -116,8 +116,8 @@ Vá em **Settings → Secrets and variables → Actions** e adicione:
 | Secret | Onde conseguir |
 |--------|----------------|
 | `NETLIFY_AUTH_TOKEN` | Netlify → User Settings → Applications → Personal access tokens → New access token |
-| `NETLIFY_SITE_ID` | Netlify → Site configuration → General → Site ID (UUID) |
-| `NETLIFY_SITE_NAME` | Netlify → Site configuration → General → Site name (slug) |
+| `NETLIFY_SITE_ID` | Netlify → Project configuration → General → Project ID (UUID) |
+| `NETLIFY_SITE_NAME` | Netlify → Project configuration → General → Project name (slug) |
 
 **Como gerar `NETLIFY_AUTH_TOKEN`:**
 1. Acesse [app.netlify.com](https://app.netlify.com)
